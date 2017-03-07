@@ -26,7 +26,7 @@
             width: 300px;
             line-height:30px;
         }
-            #head li; {
+            #head li {
             margin-left: 25px;
             color: black;
             float: left;
