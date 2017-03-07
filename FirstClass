@@ -11,13 +11,22 @@
         }
         p {
             text-indent: 20px;
-            
             line-height: 30px;
+        }
+        #content3 p{
+            text-indent:0px;
         }
         #content2 li {
             list-style: none;
         }
-        #head li {
+        #content4 li{
+            list-style:decimal;
+        }
+        td {
+            width: 300px;
+            line-height:30px;
+        }
+            #head li; {
             margin-left: 25px;
             color: black;
             float: left;
@@ -52,7 +61,7 @@
     <img src="logo.png" />
         <p>这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，<a href="http//ife.baidu.com" target="_blank">这是一个链接打开新窗口到http//ife.baidu.com</a>，这是一个很长的段落，这是一个很长的段落，<b>这里有一段粗体字</b>，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，换行了。</p>
     </div>
-    <div style="background-color: white; width: 90%; position: absolute; left: 5%; margin-top: 700px; box-shadow: 5px 5px 2px #434343; line-height: 50px; padding-left: 20px; display: inline; " id="content2">
+    <div style="background-color: white; width: 90%; position: absolute; left: 5%; margin-top: 650px; box-shadow: 5px 5px 2px #434343; line-height: 50px; padding-left: 20px; display: inline; " id="content2">
         <h1 style="margin-top:40px">另一篇文章文章一级标题</h1>
         <h2 style="color:#808080">文章二级标题</h2>
         <span style="color: #c1c1c1; margin-left: 20px;">文章作者</span><span style="margin-left: 10px; color: #c1c1c1">文章发表时间</span>
@@ -65,6 +74,82 @@
             <li>列表项目二</li>
             <li>列表项目三</li>
         </ul>
+    </div>
+    <div style="background-color: white; width: 90%; position: absolute; left: 5%; margin-top: 1360px; box-shadow: 5px 5px 2px #434343; line-height: 50px; padding-left: 20px; display: inline; " id="content3">
+        <h1 style="margin-top:40px;">图片</h1>
+        <div style="margin-top: 20px; border: solid 1px #808080; width: 170px; text-align: center">
+            <p>好看的图片</p>
+            <img src="logo.png" style="max-height: 50px; max-width: 150px;" />
+        </div>
+        <div style="margin-top: 20px; border: solid 1px #808080; width: 170px; text-align: center">
+            <p>好看的图片</p>
+            <img src="logo.png" style="max-height: 50px; max-width: 150px;" />
+        </div>
+        <div style="margin-top: 20px; border: solid 1px #808080; width: 170px; text-align: center">
+            <p>好看的图片</p>
+            <img src="logo.png" style="max-height: 50px; max-width: 150px;" />
+        </div>
+        <div style="margin-top: 20px; border: solid 1px #808080; width: 170px; text-align: center">
+            <p>好看的图片</p>
+            <img src="logo.png" style="max-height: 50px; max-width: 150px;" />
+        </div>
+        <div style="margin-top: 20px; border: solid 1px #808080; width: 170px; text-align: center">
+            <p>好看的图片</p>
+            <img src="logo.png" style="max-height: 50px; max-width: 150px;" />
+        </div>
+        <div style="margin-top: 20px; border: solid 1px #808080; width: 170px; text-align: center">
+            <p>好看的图片</p>
+            <img src="logo.png" style="max-height: 50px; max-width: 150px;" />
+        </div>
+        <div style="margin-top: 20px; border: solid 1px #808080; width: 170px; text-align: center">
+            <p>好看的图片</p>
+            <img src="logo.png" style="max-height: 50px; max-width: 150px;" />
+        </div>
+        <div style="margin-top: 20px; border: solid 1px #808080; width: 170px; text-align: center">
+            <p>好看的图片</p>
+            <img src="logo.png" style="max-height: 50px; max-width: 150px;" />
+        </div>
+        <div style="margin-top: 20px; border: solid 1px #808080; width: 170px; text-align: center">
+            <p>好看的图片</p>
+            <img src="logo.png" style="max-height: 50px; max-width: 150px;" />
+        </div>
+        <div style="margin-top: 20px; border: solid 1px #808080; width: 170px; text-align: center">
+            <p>好看的图片</p>
+            <img src="logo.png" style="max-height: 50px; max-width: 150px;" />
+        </div>
+        <div style="margin-top: 20px; border: solid 1px #808080; width: 170px; text-align: center">
+            <p>好看的图片</p>
+            <img src="logo.png" style="max-height: 50px; max-width: 150px;" />
+        </div>
+        <div style="margin-top: 20px; border: solid 1px #808080; width: 170px; text-align: center">
+            <p>好看的图片</p>
+            <img src="logo.png" style="max-height: 50px; max-width: 150px;" />
+        </div>
+    </div>
+    <div style="background-color: white; width: 90%; position: absolute; left: 5%; margin-top: 2930px; box-shadow: 5px 5px 2px #434343; line-height: 50px; padding-left: 20px; display: inline; " id="content4">
+        <h1 style="margin-top:40px">最后一篇文章文章一级标题</h1>
+        <h2 style="color:#808080">文章二级标题</h2>
+        <span style="color: #c1c1c1; margin-left: 20px;">文章作者</span><span style="margin-left: 10px; color: #c1c1c1">文章发表时间</span>
+        
+        <ul style="padding-left: 40px;line-height:30px;">
+            <li>列表项目一</li>
+            <li>列表项目二</li>
+            <li>列表项目三</li>
+        </ul>
+        <table>
+            <thead style="background-color:#3b3b3b">
+                <tr><td>表头</td><td>表头</td><td>表头</td></tr>
+            </thead>
+            <tbody>
+                <tr><td>表格内容单元</td><td>表格内容单元</td><td><a href="#">操作</a></td></tr>
+                <tr><td>表格内容单元</td><td>表格内容单元</td><td><a href="#">操作</a></td></tr>
+                <tr><td>表格内容单元</td><td>表格内容单元</td><td><a href="#">操作</a></td></tr>
+                <tr><td>表格内容单元</td><td>表格内容单元</td><td><a href="#">操作</a></td></tr>
+            </tbody>
+            <tfoot style="background-color:#c1c1c1">
+                <tr><td>总计</td><td colspan="2">1000</td></tr>
+            </tfoot>
+        </table>
     </div>
 </body>
 </html>
