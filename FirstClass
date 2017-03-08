@@ -22,6 +22,16 @@
         #content4 li{
             list-style:decimal;
         }
+        .tab {
+            background-color: gray;
+            width: 10px;
+            height:50px;
+            overflow:hidden;
+        }
+        .tab:hover{
+            width:600px;
+            background-color:white;
+        }
         td {
             width: 300px;
             line-height:30px;
@@ -54,7 +64,7 @@
     <div style="background-color: white; width: 90%; position:absolute; left: 5%; margin-top: 30px; box-shadow: 5px 5px 2px #434343; line-height: 50px; padding-left: 20px; display: inline">
         <h1 style="margin-top:40px">文章一级标题</h1>
         <h2 style="color:#808080">文章二级标题</h2>
-        <span style="color: #c1c1c1; margin-left: 20px;">文章作者</span><span style="margin-left: 10px; color: #c1c1c1">文章发表时间</span>
+        <span style="color: #c1c1c1;">文章作者</span><span style="margin-left: 10px; color: #c1c1c1">文章发表时间</span>
         <p>这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，换行了。</p>
         <p>这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，换行了。</p>
         <p>这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，<a href="http//ife.baidu.com" target="_parent">这是一个链接到http//ife.baidu.com</a>，这是一个很长的段落，这是一个很长的段落，<b>这里有一段粗体字</b>，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，换行了。</p>
@@ -64,7 +74,7 @@
     <div style="background-color: white; width: 90%; position: absolute; left: 5%; margin-top: 650px; box-shadow: 5px 5px 2px #434343; line-height: 50px; padding-left: 20px; display: inline; " id="content2">
         <h1 style="margin-top:40px">另一篇文章文章一级标题</h1>
         <h2 style="color:#808080">文章二级标题</h2>
-        <span style="color: #c1c1c1; margin-left: 20px;">文章作者</span><span style="margin-left: 10px; color: #c1c1c1">文章发表时间</span>
+        <span style="color: #c1c1c1;">文章作者</span><span style="margin-left: 10px; color: #c1c1c1">文章发表时间</span>
         <p>这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，换行了。</p>
         <p>这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，换行了。</p>
         <p>这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，<a href="http//ife.baidu.com" target="_parent">这是一个链接到http//ife.baidu.com</a>，这是一个很长的段落，这是一个很长的段落，<b>这里有一段粗体字</b>，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，换行了。</p>
@@ -129,7 +139,7 @@
     <div style="background-color: white; width: 90%; position: absolute; left: 5%; margin-top: 2930px; box-shadow: 5px 5px 2px #434343; line-height: 50px; padding-left: 20px; display: inline; " id="content4">
         <h1 style="margin-top:40px">最后一篇文章文章一级标题</h1>
         <h2 style="color:#808080">文章二级标题</h2>
-        <span style="color: #c1c1c1; margin-left: 20px;">文章作者</span><span style="margin-left: 10px; color: #c1c1c1">文章发表时间</span>
+        <span style="color: #c1c1c1;">文章作者</span><span style="margin-left: 10px; color: #c1c1c1">文章发表时间</span>
         
         <ul style="padding-left: 40px;line-height:30px;">
             <li>列表项目一</li>
@@ -138,7 +148,7 @@
         </ul>
         <table>
             <thead style="background-color:#3b3b3b">
-                <tr><td>表头</td><td>表头</td><td>表头</td></tr>
+                <tr style="color:white;"><td>表头</td><td>表头</td><td>表头</td></tr>
             </thead>
             <tbody>
                 <tr><td>表格内容单元</td><td>表格内容单元</td><td><a href="#">操作</a></td></tr>
@@ -150,6 +160,35 @@
                 <tr><td>总计</td><td colspan="2">1000</td></tr>
             </tfoot>
         </table>
+    </div>
+    <div style="background-color: white; width: 90%; position: absolute; left: 5%; margin-top: 3430px; box-shadow: 5px 5px 2px #434343; line-height: 50px; padding-left: 20px; display: inline; " id="content4">
+        <div class="tab">
+            <span style="margin-left:20px;">这是一个侧栏侧栏侧栏</span>
+        </div>
+        <div>
+            <form>
+                <table>
+                    <tr><td align="right"><span>请输入邮箱地址：</span></td><td><input type="email" value="这是一个文本输入框" /><br /></td></tr>
+                    <tr><td></td><td style="color:#c1c1c1">邮箱地址请按要求格式输入</td></tr>
+                    <tr><td align="right"><span>请输入密码：</span></td><td><input type="password" /><br /></td></tr>
+                    <tr><td align="right"><span>请重复输入密码：</span></td><td><input type="password" /><br /></td></tr>
+                    <tr><td></td><td style="color:#c1c1c1">密码请为6-16位英文和数字</td></tr>
+                    <tr><td align="right"><span>性别：</span></td><td><input type="radio" name="sex" checked="checked" />男<input type="radio" name="sex" />女</td></tr>
+                    <tr><td align="right"><span>城市：</span></td><td><select><option>北京</option><option>上海</option><option>广州</option></select></td></tr>
+                    <tr><td align="right"><span>爱好：</span></td><td><input type="checkbox" />运动<input type="checkbox" />艺术<input type="checkbox" />科学</td></tr>
+                    <tr><td align="right" style="position:relative;"><span style="position: absolute; right: 0px; top: 0px;">个人描述：</span></td><td rowspan="4"><textarea style="height:100px;width:800px">多行输入框，请输入你的描述。</textarea></td></tr>
+                    <tr><td></td></tr>
+                    <tr><td></td></tr>
+                    <tr><td></td></tr>
+                </table>
+                <input type="submit" value="确认提交" style="width:60%;height:40px;border-radius:10px;background-color:#1b40ba;color:white;font-size:large;" />
+            </form>
+        </div>
+    </div>
+    <div style="background-color: #3b3b3b; width: 100%; height: 80px;position:relative; margin-top: 3950px;">
+        <div style="color:white;position:absolute;top:38%;left:45%">
+            版权所有@
+        </div>
     </div>
 </body>
 </html>
